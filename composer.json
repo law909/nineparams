@@ -1,0 +1,21 @@
+{
+   "name": "law909/nineparams",
+   "description": "AltoRouter request parameter handler",
+   "keywords": ["router", "routing", "lightweight"],
+   "homepage": "https://github.com/law909/nineparams",
+   "authors": [
+      {
+         "name": "law909",
+         "email": "law909@gmail.com"
+      }
+   ],
+   "require": {
+      "php": ">=5.3.0"
+   },
+   "autoload": {
+      "files": [
+          "src/ParameterHandler.php",
+          "src/HtmlPurifierSanitizer.php"
+          ]
+   }
+}
